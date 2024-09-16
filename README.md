@@ -2,7 +2,12 @@
 
 A brief description of what this project does and its purpose.
 
-## Table of Contents
+<div style="display: flex;">
+
+<!-- Sidebar starts here -->
+<div style="width: 25%; padding-right: 20px;">
+
+### Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -11,9 +16,14 @@ A brief description of what this project does and its purpose.
 - [License](#license)
 - [Contact](#contact)
 
+</div>
+
+<!-- Main content starts here -->
+<div style="width: 75%;">
+
 ## Installation
 
-Provide a step-by-step guide on how to install and set up your project. For example:
+Provide a step-by-step guide on how to install and set up your project.
 
 1. Clone the repository:
     ```bash
@@ -30,7 +40,7 @@ Provide a step-by-step guide on how to install and set up your project. For exam
 
 ## Usage
 
-Explain how to use your project. Include code examples and command-line instructions if applicable. For example:
+Explain how to use your project with code examples if applicable.
 
 1. Start the application:
     ```bash
@@ -40,7 +50,7 @@ Explain how to use your project. Include code examples and command-line instruct
 
 ## Features
 
-Highlight the main features of your project. For example:
+Highlight the main features of your project.
 
 - Feature 1: Description
 - Feature 2: Description
@@ -48,7 +58,7 @@ Highlight the main features of your project. For example:
 
 ## Contributing
 
-Provide guidelines for contributing to your project. For example:
+Provide guidelines for contributing to your project.
 
 1. Fork the repository.
 2. Create a new branch:
@@ -68,14 +78,16 @@ Provide guidelines for contributing to your project. For example:
 
 ## License
 
-Specify the license under which the project is distributed. For example:
+Specify the license under which the project is distributed.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-Provide contact information for users who have questions or need support. For example:
+Provide contact information for users.
 
 - **Email:** [your-email@example.com](mailto:your-email@example.com)
 - **Twitter:** [@yourhandle](https://twitter.com/yourhandle)
 
+</div>
+</div>
