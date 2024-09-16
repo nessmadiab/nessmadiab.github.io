@@ -17,6 +17,7 @@ body {
     align-items: center; /* Align items vertically */
     padding: 0 20px; /* Add padding to navbar */
     justify-content: space-between; /* Space between logos and menu items */
+    overflow: hidden; /* Prevent content overflow */
 }
 
 .navbar-logo {
@@ -35,6 +36,7 @@ body {
 .navbar-logo img {
     height: 40px; /* Adjust the height of the logos */
     width: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure logos fit within their container */
 }
 
 .navbar ul {
