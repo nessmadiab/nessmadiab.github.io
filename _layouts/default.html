@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <div class="sidebar collapsed" id="sidebar">
-        <button id="toggleSidebar" class="toggle-btn">☰</button>
+    <div class="sidebar" id="sidebar">
         <ul>
             {% for item in site.nav %}
                 <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
             {% endfor %}
         </ul>
     </div>
+
+    <!-- Toggle Button for Collapsing Sidebar -->
+    <button id="toggleSidebar" class="toggle-btn">☰</button>
 
     <div class="content" id="content">
         {{ content }}
@@ -24,7 +26,9 @@
     <script>
         document.getElementById('toggleSidebar').onclick = function () {
             var sidebar = document.getElementById('sidebar');
+            var content = document.getElementById('content');
             sidebar.classList.toggle('collapsed');
+            content.classList.toggle('expanded');
         };
     </script>
 </body>
