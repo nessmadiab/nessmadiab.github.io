@@ -1,0 +1,18 @@
+title: "Course Website"
+theme: jekyll-theme-minimal
+markdown: kramdown
+permalink: pretty
+sidebar: true
+fixed_sidebar: true
+
+# Define the navigation structure
+nav:
+  - title: "Course Orientation"
+    url: /orientation/
+  - title: "Course Content"
+    url: /content/
+  - title: "Course Assessment"
+    url: /assessment/
+
+# URL of the repository
+repository: https://github.com/nessmadiab/nessmadiab.github.io
