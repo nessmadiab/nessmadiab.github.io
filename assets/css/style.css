@@ -24,14 +24,15 @@ body {
 }
 
 .content {
-    margin-left: 250px; /* Adjust based on the expanded sidebar width */
+    margin-left: 250px; /* Default margin to accommodate the expanded sidebar */
     padding: 20px;
     transition: margin-left 0.3s ease;
     box-sizing: border-box;
+    flex-grow: 1; /* Allow content area to adjust its size */
 }
 
 .content.expanded {
-    margin-left: 0; /* Shift margin-left when sidebar is collapsed */
+    margin-left: 0; /* Adjust margin when sidebar is collapsed */
 }
 
 .toggle-btn {
@@ -42,7 +43,7 @@ body {
     border: none;
     font-size: 20px;
     cursor: pointer;
-    z-index: 101; /* Ensure it’s above sidebar */
+    z-index: 101; /* Ensure it’s above sidebar and content */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
