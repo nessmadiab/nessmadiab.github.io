@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.content {
+  margin-left: 260px;
+  padding: 20px;
+}
