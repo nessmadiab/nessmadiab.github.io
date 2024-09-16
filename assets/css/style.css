@@ -11,7 +11,7 @@ body {
     position: fixed;
     height: 100%;
     overflow: auto;
-    transition: width 0.3s, padding 0.3s;
+    transition: width 0.3s;
 }
 
 .sidebar.collapsed {
@@ -20,36 +20,36 @@ body {
     overflow: hidden;
 }
 
-.sidebar ul {
-    list-style: none;
-    padding: 0;
-}
-
-.sidebar ul li {
-    margin: 10px 0;
-}
-
 .content {
-    margin-left: 260px;
+    margin-left: 250px; /* Adjust based on your sidebar width */
     padding: 20px;
     transition: margin-left 0.3s;
 }
 
-.sidebar.collapsed ~ .content {
+.content.expanded {
     margin-left: 0;
 }
 
 .toggle-btn {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
     background-color: #f8f9fa;
     border: none;
     font-size: 20px;
     cursor: pointer;
     z-index: 1000;
+    /* Ensure the button is always visible */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .toggle-btn:focus {
     outline: none;
+}
+
+/* Initially collapse the sidebar */
+.sidebar.collapsed {
+    width: 0;
+    padding: 0;
+    overflow: hidden;
 }
