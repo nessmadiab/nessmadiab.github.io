@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-# Welcome to the Course Website
+# Welcome to the Translation Technology: Approaches and Tools
 
 Use the sidebar to navigate through the pages:
 
