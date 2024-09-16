@@ -23,6 +23,30 @@ body {
     overflow: hidden;
 }
 
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners for the blocks */
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
 .content {
     margin-left: 250px; /* Default margin to accommodate the expanded sidebar */
     padding: 20px;
