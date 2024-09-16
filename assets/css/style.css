@@ -2,16 +2,19 @@ body {
     display: flex;
     margin: 0;
     font-family: Arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .sidebar {
-    width: 250px;
+    width: 250px; /* Width when expanded */
     background-color: #f8f9fa;
     padding: 20px;
     position: fixed;
     height: 100%;
     overflow: auto;
-    transition: width 0.3s;
+    transition: width 0.3s ease, padding 0.3s ease;
+    z-index: 100; /* Ensure it’s above content */
 }
 
 .sidebar.collapsed {
@@ -21,13 +24,14 @@ body {
 }
 
 .content {
-    margin-left: 250px; /* Adjust based on your sidebar width */
+    margin-left: 250px; /* Adjust based on the expanded sidebar width */
     padding: 20px;
-    transition: margin-left 0.3s;
+    transition: margin-left 0.3s ease;
+    box-sizing: border-box;
 }
 
 .content.expanded {
-    margin-left: 0;
+    margin-left: 0; /* Shift margin-left when sidebar is collapsed */
 }
 
 .toggle-btn {
@@ -38,18 +42,10 @@ body {
     border: none;
     font-size: 20px;
     cursor: pointer;
-    z-index: 1000;
-    /* Ensure the button is always visible */
+    z-index: 101; /* Ensure it’s above sidebar */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .toggle-btn:focus {
     outline: none;
-}
-
-/* Initially collapse the sidebar */
-.sidebar.collapsed {
-    width: 0;
-    padding: 0;
-    overflow: hidden;
 }
