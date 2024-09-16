@@ -3,9 +3,9 @@ layout: default
 title: "Home"
 ---
 
-# Welcome to the Translation Technology: Approaches and Tools
+# Translation Technology: Approaches and Tools (ENG 512)
 
-Use the sidebar to navigate through the pages:
+Use the menu to navigate through the pages:
 
 - [Course Orientation](orientation.md)
 - [Course Content](content.md)
