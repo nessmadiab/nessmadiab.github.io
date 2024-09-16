@@ -2,12 +2,7 @@
 
 A brief description of what this project does and its purpose.
 
-<div style="display: flex;">
-
-<!-- Sidebar starts here -->
-<div style="width: 25%; padding-right: 20px;">
-
-### Table of Contents
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -16,14 +11,9 @@ A brief description of what this project does and its purpose.
 - [License](#license)
 - [Contact](#contact)
 
-</div>
-
-<!-- Main content starts here -->
-<div style="width: 75%;">
-
 ## Installation
 
-Provide a step-by-step guide on how to install and set up your project.
+Provide a step-by-step guide on how to install and set up your project. For example:
 
 1. Clone the repository:
     ```bash
@@ -40,7 +30,7 @@ Provide a step-by-step guide on how to install and set up your project.
 
 ## Usage
 
-Explain how to use your project with code examples if applicable.
+Explain how to use your project. Include code examples and command-line instructions if applicable. For example:
 
 1. Start the application:
     ```bash
@@ -50,7 +40,7 @@ Explain how to use your project with code examples if applicable.
 
 ## Features
 
-Highlight the main features of your project.
+Highlight the main features of your project. For example:
 
 - Feature 1: Description
 - Feature 2: Description
@@ -58,7 +48,7 @@ Highlight the main features of your project.
 
 ## Contributing
 
-Provide guidelines for contributing to your project.
+Provide guidelines for contributing to your project. For example:
 
 1. Fork the repository.
 2. Create a new branch:
@@ -78,16 +68,18 @@ Provide guidelines for contributing to your project.
 
 ## License
 
-Specify the license under which the project is distributed.
+Specify the license under which the project is distributed. For example:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-Provide contact information for users.
+Provide contact information for users who have questions or need support. For example:
 
 - **Email:** [your-email@example.com](mailto:your-email@example.com)
 - **Twitter:** [@yourhandle](https://twitter.com/yourhandle)
 
-</div>
-</div>
+---
+
+Feel free to reach out if you have any questions or feedback!
+
