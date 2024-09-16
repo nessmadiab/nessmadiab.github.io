@@ -16,12 +16,25 @@ body {
     display: flex;
     align-items: center; /* Align items vertically */
     padding: 0 20px; /* Add padding to navbar */
+    justify-content: space-between; /* Space between logos and menu items */
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center; /* Align logo vertically */
+}
+
+.navbar-logo.left {
+    margin-right: 20px; /* Space between the left logo and menu items */
+}
+
+.navbar-logo.right {
+    margin-left: 20px; /* Space between the menu items and the right logo */
 }
 
 .navbar-logo img {
-    height: 40px; /* Adjust the height of the logo */
+    height: 40px; /* Adjust the height of the logos */
     width: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Space between the logo and menu items */
 }
 
 .navbar ul {
@@ -40,7 +53,7 @@ body {
 .navbar ul li a {
     display: block;
     padding: 10px 20px;
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color: rgba(128, 128, 128, 0.2); /* Transparent grey */
     color: black;
     text-decoration: none;
     border-radius: 5px;
@@ -48,7 +61,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    background-color: rgba(128, 128, 128, 0.6);
+    background-color: rgba(128, 128, 128, 0.6); /* Darker grey on hover */
 }
 
 .content {
