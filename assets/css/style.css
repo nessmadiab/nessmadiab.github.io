@@ -1,36 +1,33 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.header {
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: #f8f9fa;
-    z-index: 1000; /* Ensure it’s above the content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100; /* Ensure it’s above other content */
 }
 
-.menu {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-}
-
-.menu ul {
+.navbar ul {
     list-style-type: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
     display: flex;
+    justify-content: center; /* Center the menu items */
 }
 
-.menu ul li {
-    margin: 0 10px;
+.navbar ul li {
+    margin: 0 10px; /* Space between menu items */
 }
 
-.menu ul li a {
+.navbar ul li a {
     display: block;
     padding: 10px 20px;
     background-color: #007bff;
@@ -40,11 +37,11 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.menu ul li a:hover {
+.navbar ul li a:hover {
     background-color: #0056b3; /* Darker color on hover */
 }
 
 .content {
-    padding: 20px;
-    margin-top: 60px; /* Adjust to provide space for the fixed header */
+    padding: 60px 20px 20px; /* Add padding to account for the fixed navbar */
+    box-sizing: border-box;
 }
