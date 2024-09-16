@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <!-- Fixed Horizontal Menu Bar -->
+    <!-- Fixed Horizontal Menu Bar with Logo -->
     <div class="navbar">
+        <div class="navbar-logo">
+            <a href="{{ '/' | relative_url }}">
+                <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo">
+            </a>
+        </div>
         <ul>
             {% for item in site.nav %}
                 <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
