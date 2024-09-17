@@ -15,7 +15,7 @@ body {
     z-index: 100;
     display: flex;
     align-items: center; /* Align items vertically */
-    padding: 0 20px; /* Add padding to navbar */
+    padding: 0 40px; /* Increase padding on both sides */
     justify-content: space-between; /* Space between logos and menu items */
     overflow: hidden; /* Prevent content overflow */
 }
@@ -31,12 +31,12 @@ body {
 
 .navbar-logo.right {
     margin-left: 20px; /* Space between the menu items and the right logo */
+    padding-right: 20px; /* Add padding to push the logo left */
 }
 
 .navbar-logo img {
     height: 40px; /* Adjust the height of the logos */
     width: auto; /* Maintain aspect ratio */
-    max-width: 100%; /* Ensure logos fit within their container */
 }
 
 .navbar ul {
