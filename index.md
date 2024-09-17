@@ -7,7 +7,7 @@ title: "Home"
 
 In this course, we'll embark on a deep dive into the cutting-edge technologies transforming the field of translation. You’ll gain hands-on experience and in-depth knowledge about a range of topics crucial for mastering modern translation practices including:
 
-<img src="assets/images/hello.gif" alt="Course Image" style="float: right; width: 125px; margin-left: 20px;">
+<img src="assets/images/hi.gif" alt="Course Image" style="float: right; width: 170px; margin-left: 20px;">
 
 1. Machine Translation: Evolution and Applications
 2. Generative AI in Translation: Techniques and Prompt Engineering
