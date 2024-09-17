@@ -8,7 +8,7 @@ title: "Home"
 In this course, we'll embark on a deep dive into the cutting-edge technologies transforming the field of translation. You’ll gain hands-on experience and in-depth knowledge about a range of topics crucial for mastering modern translation practices including:
 
 <figure style="float: right; width: 125px; margin-left: 20px;">
-  <img src="/images/your-image.jpg" alt="Course Image" style="width: 100%;">
+  <img src="assets/images/hi.gif" alt="Course Image" style="width: 100%;">
   <figcaption style="font-size: 0.8em; text-align: center; margin-top: 5px;">Course Overview</figcaption>
 </figure>
 
