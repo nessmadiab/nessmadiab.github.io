@@ -14,67 +14,67 @@ title: "Course Content"
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid darkgrey;">1</td>
+      <td style="border: 1px solid darkgrey;">One</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">2</td>
+      <td style="border: 1px solid darkgrey;">Two</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">3</td>
+      <td style="border: 1px solid darkgrey;">Three</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">4</td>
+      <td style="border: 1px solid darkgrey;">Four</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">5</td>
+      <td style="border: 1px solid darkgrey;">Five</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">6</td>
+      <td style="border: 1px solid darkgrey;">Six</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">7</td>
+      <td style="border: 1px solid darkgrey;">Seven</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">8</td>
+      <td style="border: 1px solid darkgrey;">Eight</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">9</td>
+      <td style="border: 1px solid darkgrey;">Nine</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">10</td>
+      <td style="border: 1px solid darkgrey;">Ten</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">11</td>
+      <td style="border: 1px solid darkgrey;">Eleven</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">12</td>
+      <td style="border: 1px solid darkgrey;">Twelve</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">13</td>
+      <td style="border: 1px solid darkgrey;">Thirteen</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">14</td>
+      <td style="border: 1px solid darkgrey;">Fourteen</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">15</td>
+      <td style="border: 1px solid darkgrey;">Fifteen</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
     <tr>
-      <td style="border: 1px solid darkgrey;">16</td>
+      <td style="border: 1px solid darkgrey;">Sixteen</td>
       <td style="border: 1px solid darkgrey;"></td>
     </tr>
   </tbody>
