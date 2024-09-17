@@ -1,3 +1,4 @@
+/* Base styles for all devices */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -5,6 +6,7 @@ body {
     box-sizing: border-box;
 }
 
+/* Navbar */
 .navbar {
     position: fixed;
     top: 0;
@@ -14,25 +16,15 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 100;
     display: flex;
-    align-items: center; /* Align items vertically */
-    padding: 0 20px; /* Padding for navbar */
-    justify-content: flex-start; /* Align items to the left */
-    overflow: hidden; /* Prevent content overflow */
-}
-
-.navbar-logo {
-    display: flex;
-    align-items: center; /* Align logos vertically */
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    overflow: hidden;
 }
 
 .navbar-logo img {
-    height: 40px; /* Adjust the height of the logos */
-    width: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Increase space between the two logos */
-}
-
-.navbar-logo.right {
-    margin-left: 40px; /* Push the right logo further to the left */
+    height: 40px;
+    margin-right: 10px;
 }
 
 .navbar ul {
@@ -40,8 +32,8 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-grow: 1; /* Allow menu to take available space */
-    justify-content: center; /* Center the menu items */
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .navbar ul li {
@@ -51,7 +43,7 @@ body {
 .navbar ul li a {
     display: block;
     padding: 10px 20px;
-    background-color: rgba(128, 128, 128, 0.2); /* Transparent grey */
+    background-color: rgba(128, 128, 128, 0.2);
     color: black;
     text-decoration: none;
     border-radius: 5px;
@@ -59,10 +51,35 @@ body {
 }
 
 .navbar ul li a:hover {
-    background-color: rgba(128, 128, 128, 0.6); /* Darker grey on hover */
+    background-color: rgba(128, 128, 128, 0.6);
 }
 
 .content {
     padding: 60px 20px 20px;
     box-sizing: border-box;
+}
+
+/* Media queries for screens less than 768px wide (mobile devices) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-logo {
+        margin-bottom: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .content {
+        padding: 80px 10px;
+    }
 }
