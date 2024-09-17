@@ -5,77 +5,77 @@ title: "Course Content"
 
 # Course Content
 
-<table style="width: 100%;">
-  <tr>
-    <td style="width: 20%;">Column 1</td>
-    <td style="width: 80%;">Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 1, Column 1</td>
-    <td>Row 1, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 2, Column 1</td>
-    <td>Row 2, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 3, Column 1</td>
-    <td>Row 3, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 4, Column 1</td>
-    <td>Row 4, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 5, Column 1</td>
-    <td>Row 5, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 6, Column 1</td>
-    <td>Row 6, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 7, Column 1</td>
-    <td>Row 7, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 8, Column 1</td>
-    <td>Row 8, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 9, Column 1</td>
-    <td>Row 9, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 10, Column 1</td>
-    <td>Row 10, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 11, Column 1</td>
-    <td>Row 11, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 12, Column 1</td>
-    <td>Row 12, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 13, Column 1</td>
-    <td>Row 13, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 14, Column 1</td>
-    <td>Row 14, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 15, Column 1</td>
-    <td>Row 15, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 16, Column 1</td>
-    <td>Row 16, Column 2</td>
-  </tr>
-  <tr>
-    <td>Row 17, Column 1</td>
-    <td>Row 17, Column 2</td>
-  </tr>
+<table style="width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr style="background-color: lightgrey;">
+      <th style="width: 20%; border: 1px solid darkgrey; font-weight: bold;">Week</th>
+      <th style="width: 80%; border: 1px solid darkgrey; font-weight: bold;">Content</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid darkgrey;">1</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">2</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">3</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">4</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">5</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">6</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">7</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">8</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">9</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">10</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">11</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">12</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">13</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">14</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">15</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid darkgrey;">16</td>
+      <td style="border: 1px solid darkgrey;"></td>
+    </tr>
+  </tbody>
 </table>
