@@ -17,9 +17,8 @@ body {
     z-index: 100;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between; /* Align left and right logos properly */
     padding: 0 20px;
-    overflow: hidden;
 }
 
 .navbar-logo img {
@@ -32,8 +31,8 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-grow: 1;
     justify-content: center;
+    flex-grow: 1;
 }
 
 .navbar ul li {
@@ -54,32 +53,34 @@ body {
     background-color: rgba(128, 128, 128, 0.6);
 }
 
+/* Ensuring the content is below the navbar */
 .content {
-    padding: 60px 20px 20px;
+    padding: 80px 20px 20px;
     box-sizing: border-box;
 }
 
-/* Media queries for screens less than 768px wide (mobile devices) */
+/* Mobile responsiveness */
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-wrap: wrap; /* Prevent overlapping */
+        justify-content: center; /* Keep menu centered */
     }
 
     .navbar-logo {
-        margin-bottom: 10px;
+        flex: 1;
+        text-align: left;
     }
 
     .navbar ul {
-        flex-direction: column;
+        flex-direction: row; /* Keep horizontal layout */
         width: 100%;
     }
 
     .navbar ul li {
-        margin: 10px 0;
+        margin: 5px 0; /* Adjust space between items */
     }
 
     .content {
-        padding: 80px 10px;
+        padding: 100px 10px;
     }
 }
