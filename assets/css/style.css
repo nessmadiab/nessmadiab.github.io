@@ -28,7 +28,11 @@ body {
 .navbar-logo img {
     height: 40px; /* Adjust the height of the logos */
     width: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Space between the two logos */
+    margin-right: 20px; /* Increase space between the two logos */
+}
+
+.navbar-logo.right {
+    margin-left: 40px; /* Push the right logo further to the left */
 }
 
 .navbar ul {
