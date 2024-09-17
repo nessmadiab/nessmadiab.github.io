@@ -9,6 +9,8 @@ In this course, we'll embark on a deep dive into the cutting-edge technologies t
 
 <img src="assets/images/hi.gif" alt="Course Image" style="float: right; width: 170px; margin-left: 20px;">
 
+<span style="float: right; font-size: small; color: gray; margin-top: 5px;">Caption for the image</span>
+
 1. Machine Translation: Evolution and Applications
 2. Generative AI in Translation: Techniques and Prompt Engineering
 3. Translation Quality Assessment and Quality Estimation
