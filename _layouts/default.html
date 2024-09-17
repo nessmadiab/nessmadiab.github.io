@@ -14,7 +14,10 @@
                 <img src="{{ '/assets/images/logo-left.png' | relative_url }}" alt="Left Logo">
             </a>
         </div>
-        <ul>
+        <button class="navbar-toggle" id="navbar-toggle">
+            ☰
+        </button>
+        <ul id="navbar-menu">
             {% for item in site.nav %}
                 <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
             {% endfor %}
@@ -24,5 +27,7 @@
     <div class="content">
         {{ content }}
     </div>
+
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
 </body>
 </html>
