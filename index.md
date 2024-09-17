@@ -5,19 +5,12 @@ title: "Home"
 
 # <span style="color: red;">Translation Technology: Approaches and Tools (ENG 512)</span>
 
-In this course, we'll embark on a deep dive into the cutting-edge technologies transforming the field of translation. You’ll gain hands-on experience and in-depth knowledge about a range of topics crucial for mastering modern translation practices. Here's how we’ll structure our journey:
+In this course, we'll embark on a deep dive into the cutting-edge technologies transforming the field of translation. You’ll gain hands-on experience and in-depth knowledge about a range of topics crucial for mastering modern translation practices including:
 
-### Machine Translation: Evolution and Applications
-We’ll begin with an exploration of machine translation, tracing its history, understanding its various paradigms, and examining contemporary use cases. We’ll also look at advanced systems like Large Language Models (LLMs), Microsoft Custom MT, and Google’s translation technologies.
-
-### Generative AI in Translation: Techniques and Prompt Engineering
-Building on our foundation in machine translation, we’ll delve into the role of generative AI. You’ll learn how to craft effective prompts to optimize translation outputs and leverage AI advancements for better results.
-
-### Translation Quality Assessment and Quality Estimation
-Next, we’ll focus on methods to assess translation quality and estimate the effectiveness of translations. This module is designed to help you ensure your work meets high standards of accuracy and reliability.
-
-### MT Post-Editing: Best Practices and Guidelines
-We’ll cover the essentials of post-editing machine translations, including types of post-editing, guidelines, and best practices, with a special focus on English-to-Arabic translation.
+1. ### Machine Translation: Evolution and Applications
+2. ### Generative AI in Translation: Techniques and Prompt Engineering
+3. ### Translation Quality Assessment and Quality Estimation
+4. ### MT Post-Editing: Best Practices and Guidelines
 
 ### Term Extraction and Electronic Corpora
 Learn about techniques for extracting terms and using electronic corpora to enhance your translation projects. This module will equip you with practical skills for handling specialized terminology.
