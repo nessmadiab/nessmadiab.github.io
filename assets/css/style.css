@@ -15,28 +15,20 @@ body {
     z-index: 100;
     display: flex;
     align-items: center; /* Align items vertically */
-    padding: 0 40px; /* Increase padding on both sides */
-    justify-content: space-between; /* Space between logos and menu items */
+    padding: 0 20px; /* Padding for navbar */
+    justify-content: flex-start; /* Align items to the left */
     overflow: hidden; /* Prevent content overflow */
 }
 
 .navbar-logo {
     display: flex;
-    align-items: center; /* Align logo vertically */
-}
-
-.navbar-logo.left {
-    margin-right: 20px; /* Space between the left logo and menu items */
-}
-
-.navbar-logo.right {
-    margin-left: 20px; /* Space between the menu items and the right logo */
-    padding-right: 20px; /* Add padding to push the logo left */
+    align-items: center; /* Align logos vertically */
 }
 
 .navbar-logo img {
     height: 40px; /* Adjust the height of the logos */
     width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between the two logos */
 }
 
 .navbar ul {
