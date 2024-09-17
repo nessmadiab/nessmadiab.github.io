@@ -65,6 +65,11 @@ body {
     outline: none;
 }
 
+/* Add top padding to content to avoid overlap with fixed navbar */
+.content {
+    padding: 80px 20px 20px; /* Adjust the top padding according to the height of the navbar */
+}
+
 @media (max-width: 768px) {
     .navbar ul {
         display: none; /* Hide menu items by default */
