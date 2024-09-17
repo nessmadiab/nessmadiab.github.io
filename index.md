@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-# Translation Technology: Approaches and Tools (ENG 512)
+# <span style="color: red;">red</span> Translation Technology: Approaches and Tools (ENG 512)
 
 In this course, we'll embark on a deep dive into the cutting-edge technologies transforming the field of translation. You’ll gain hands-on experience and in-depth knowledge about a range of topics crucial for mastering modern translation practices. Here's how we’ll structure our journey:
 
