@@ -5,7 +5,7 @@ title: "Course Content"
 
 # Course Content
 
-<table style="width: 100%; border-collapse: collapse;">
+<table style="width: 80%; border-collapse: collapse;">
   <thead>
     <tr style="background-color: lightgrey;">
       <th style="width: 20%; border: 1px solid darkgrey; font-weight: bold; padding: 10px;">Week</th>
