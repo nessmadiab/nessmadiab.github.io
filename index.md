@@ -7,10 +7,10 @@ title: "Home"
 
 In this course, we'll embark on a deep dive into the cutting-edge technologies transforming the field of translation. You’ll gain hands-on experience and in-depth knowledge about a range of topics crucial for mastering modern translation practices. Here's how we’ll structure our journey:
 
-# Machine Translation: Evolution and Applications
+## Machine Translation: Evolution and Applications
 We’ll begin with an exploration of machine translation, tracing its history, understanding its various paradigms, and examining contemporary use cases. We’ll also look at advanced systems like Large Language Models (LLMs), Microsoft Custom MT, and Google’s translation technologies.
 
-# Generative AI in Translation: Techniques and Prompt Engineering
+### Generative AI in Translation: Techniques and Prompt Engineering
 Building on our foundation in machine translation, we’ll delve into the role of generative AI. You’ll learn how to craft effective prompts to optimize translation outputs and leverage AI advancements for better results.
 
 # Translation Quality Assessment and Quality Estimation
