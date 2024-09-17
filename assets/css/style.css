@@ -1,4 +1,4 @@
-/* Base styles for all devices */
+/* Base styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -6,7 +6,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Navbar */
 .navbar {
     position: fixed;
     top: 0;
@@ -17,29 +16,29 @@ body {
     z-index: 100;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Align left and right logos properly */
+    justify-content: space-between;
     padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .navbar-logo img {
     height: 40px;
-    margin-right: 10px;
 }
 
-.navbar ul {
+.menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
     flex-grow: 1;
+    justify-content: center;
 }
 
-.navbar ul li {
+.menu li {
     margin: 0 10px;
 }
 
-.navbar ul li a {
+.menu li a {
     display: block;
     padding: 10px 20px;
     background-color: rgba(128, 128, 128, 0.2);
@@ -49,35 +48,56 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.navbar ul li a:hover {
+.menu li a:hover {
     background-color: rgba(128, 128, 128, 0.6);
 }
 
-/* Ensuring the content is below the navbar */
 .content {
     padding: 80px 20px 20px;
     box-sizing: border-box;
 }
 
-/* Mobile responsiveness */
+/* Styles for mobile view */
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: black;
+    padding: 10px;
+}
+
 @media (max-width: 768px) {
     .navbar {
-        flex-wrap: wrap; /* Prevent overlapping */
-        justify-content: center; /* Keep menu centered */
+        justify-content: space-between;
     }
 
-    .navbar-logo {
-        flex: 1;
-        text-align: left;
+    /* Hamburger button for mobile view */
+    .menu-toggle {
+        display: block;
     }
 
-    .navbar ul {
-        flex-direction: row; /* Keep horizontal layout */
+    /* Hide the menu initially in mobile view */
+    .menu {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        top: 60px; /* Place below the navbar */
+        left: 0;
         width: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+        z-index: 999;
     }
 
-    .navbar ul li {
-        margin: 5px 0; /* Adjust space between items */
+    .menu li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    /* Show the menu when toggled */
+    .menu.active {
+        display: flex;
     }
 
     .content {
